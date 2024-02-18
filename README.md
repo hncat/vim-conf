@@ -2,7 +2,7 @@
 
 ## 环境搭建(Ubuntu)
 ```
-安装[Node Version Manager(nvm)](https://github.com/nvm-sh/nvm)
+安装(Node Version Manager(nvm))[https://github.com/nvm-sh/nvm]
 
 安装node(根据自己喜欢安装版本)
   nvm install v20.11.0
