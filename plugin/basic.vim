@@ -37,5 +37,3 @@ set cindent       " 针对c/c++
 filetype on
 filetype indent on
 filetype plugin on
-
-set tags=./tags,./TAGS,tags;~,TAGS;~

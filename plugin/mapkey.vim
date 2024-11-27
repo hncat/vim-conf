@@ -18,6 +18,12 @@ noremap ? :set hlsearch<cr>?
 noremap * *:set hlsearch<cr>
 noremap # #:set hlsearch<cr>
 
+" 转到定义
+noremap <silent> gd <Plug>(coc-definition)
+noremap <silent> gt <Plug>(coc-type-definition)
+noremap <silent> gi <Plug>(coc-implementation)
+noremap <silent> gr <Plug>(coc-references)
+
 " 定义前缀
 let mapleader=" "
 
