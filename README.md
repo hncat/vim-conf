@@ -2,7 +2,9 @@
 
 ## 环境搭建(Ubuntu)
 安装gcc g++ cmake gdb
+
 sudo apt install gcc g++ cmake gdb
+
 安装[Node Version Manager(nvm)](https://github.com/nvm-sh/nvm)
 
 安装node(根据自己喜欢安装版本)
