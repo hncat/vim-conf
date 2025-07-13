@@ -14,5 +14,6 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdcommenter'
 Plug 'mileszs/ack.vim'
+Plug 'github/copilot.vim'
 
 call plug#end()
