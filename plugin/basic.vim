@@ -43,6 +43,7 @@ if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
 
+" 设置TODO和DEBUG命令
 command! Todo Ack! 'TODO|FIXME|CHANGED|BUG|todo|fixme|changed|bug'
 
 command! Debug Ack! 'NOTE|INFO|note|info'
@@ -58,4 +59,15 @@ if has("autocmd")
     autocmd Syntax * call matchadd('Debug', '\W\zs\(NOTE\|INFO\|note\|info\)')
   endif
 endif
+
+" 设置折叠
+set foldenable        " 启用折叠
+set foldlevel=99      " 默认折叠级别
+set foldnestmax=10    " 最大嵌套折叠数
+set foldcolumn=1      " 折叠列宽度
+set foldtext=folded   " 折叠文本显示
+set foldminlines=1    " 折叠最小行数
+set foldmethod=syntax " 使用语法折叠
+syntax enable
+
 
