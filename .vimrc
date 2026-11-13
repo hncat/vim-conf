@@ -1,6 +1,6 @@
 call plug#begin()
 
-Plug 'cocopon/iceberg.vim'
+Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }

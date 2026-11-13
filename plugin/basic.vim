@@ -20,12 +20,6 @@ set termencoding=utf-8
 set encoding=utf8
 set fileencodings=utf8,ucs-bom,gbk,cp936,gb2312,gb18030
 
-if has('termguicolors')
-  set termguicolors " 开启真彩色
-endif
-colorscheme evening
-colorscheme iceberg
-
 " 缩进相关
 set softtabstop=2 " 设置tab
 set shiftwidth=2  " 设置缩进
@@ -69,5 +63,3 @@ set foldtext=folded   " 折叠文本显示
 set foldminlines=1    " 折叠最小行数
 set foldmethod=syntax " 使用语法折叠
 syntax enable
-
-
