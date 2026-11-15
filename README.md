@@ -34,9 +34,3 @@ sudo apt install gcc g++ cmake gdb
 :CocInstall coc-clangd
 :CocInstall coc-cmake
 ```
-
-## 关于[LeaderF](https://github.com/Yggdroot/LeaderF)错误的解决
-```
-安装Python2或者Python3
-```
-
