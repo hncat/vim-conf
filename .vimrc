@@ -3,7 +3,8 @@ call plug#begin()
 Plug 'bluz71/vim-moonfly-colors', { 'as': 'moonfly' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'luochen1990/rainbow'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'

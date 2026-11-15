@@ -30,8 +30,9 @@ let mapleader=" "
 " 映射NERDTree
 noremap <silent><leader>n :NERDTreeToggle<cr>
 
-" 更改搜索文件命令的默认映射(LeaderF)
-let g:Lf_ShortcutF='<leader>f'
+nnoremap <C-p> :Files<CR>
+nnoremap <C-b> :Buffers<CR>
+nnoremap <C-g> :Rg<CR>    " 需要 ripgrep: sudo apt install ripgrep
 
 " clang-format 格式化代码(快捷键=c)
 noremap <silent>=c :ClangFormat<cr>
