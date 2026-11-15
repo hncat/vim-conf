@@ -30,9 +30,10 @@ let mapleader=" "
 " 映射NERDTree
 noremap <silent><leader>n :NERDTreeToggle<cr>
 
-nnoremap <C-p> :Files<CR>
-nnoremap <C-b> :Buffers<CR>
-nnoremap <C-g> :Rg<CR>    " 需要 ripgrep: sudo apt install ripgrep
+" fzf
+nnoremap <leader>f :Files<CR>
+nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>g :Rg<CR>
 
 " clang-format 格式化代码(快捷键=c)
 noremap <silent>=c :ClangFormat<cr>
